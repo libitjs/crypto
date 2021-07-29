@@ -1,0 +1,18 @@
+{
+  "extends": "@loopback/build/config/tsconfig.common.json",
+  "compilerOptions": {
+    "composite": true
+  },
+  "references": [
+    {
+      "path": "packages/crypto/tsconfig.json"
+    },
+    {
+      "path": "packages/digester/tsconfig.json"
+    },
+    {
+      "path": "packages/pki/tsconfig.json"
+    }
+  ],
+  "files": []
+}
