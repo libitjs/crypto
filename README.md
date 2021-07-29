@@ -2,13 +2,11 @@
 
 libit crypto and pki mono project
 
-## Install
+## Packages
 
-From npm,
-
-```sh
-npm i libit-crypto
-```
+- @libit/crypto: main crypto library
+- @libit/pki: A PKI library
+- @libit/digester: A digester library based on @libit/crypto hashes
 
 ## Usage
 
