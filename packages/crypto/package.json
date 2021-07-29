@@ -26,11 +26,11 @@
     "verify": "npm pack && tar xf libit-crypto*.tgz && tree package && npm run clean"
   },
   "dependencies": {
-    "@libit/bufio": "^0.4.0",
-    "bcrypto": "^5.4.0"
+    "@libit/bufio": "0.3.0",
+    "bcrypto": "5.4.0"
   },
   "devDependencies": {
-    "@libit/bsert": "^0.3.1",
+    "@libit/bsert": "0.3.2",
     "@loopback/build": "^7.0.0",
     "@loopback/eslint-config": "^11.0.0",
     "@loopback/testlab": "^3.4.2",

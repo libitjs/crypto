@@ -27,12 +27,12 @@
     "verify": "npm pack && tar xf libit-pki*.tgz && tree package && npm run clean"
   },
   "dependencies": {
-    "@libit/bufio": "^0.4.0",
-    "@libit/crypto": "^0.3.0",
+    "@libit/bufio": "^0.3.0",
+    "@libit/crypto": "^0.2.13",
     "fast-glob": "^3.2.7"
   },
   "devDependencies": {
-    "@libit/bsert": "^0.3.1",
+    "@libit/bsert": "^0.3.2",
     "@loopback/build": "^7.0.0",
     "@loopback/eslint-config": "^11.0.0",
     "@loopback/testlab": "^3.4.2",
