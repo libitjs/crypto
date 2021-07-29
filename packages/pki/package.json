@@ -1,7 +1,7 @@
 {
   "name": "@libit/pki",
   "description": "A JavaScript library implementing the formats that are used in PKI applications.",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "keywords": [
     "pki",
     "certificate",
